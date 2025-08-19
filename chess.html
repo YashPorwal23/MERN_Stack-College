@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chess Board</title>
+    <style>
+        table td img{
+            padding: 20px;
+            height: 60px;
+            width: 60px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/dnW4uOTVcvUOG9wmgUuX3kqkyLoKLEdW8we_W2-k1oI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzE5L0NoZXNzX3Bp/ZWNlXy1fQmxhY2tf/cm9vay5KUEc" alt="Rook"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/cdlYleGusET-Q6nkrYmBNRGK5ShHBMxzEvSVJZ7dn_0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9ibGFjay1o/b3JzZS1jaGVzcy1p/c29sYXRlZC1vbi0y/NjBudy0zMTUyMTA3/NTIuanBn" alt="Horse"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/8flOMLpVLoulgo6wrwtPUDof8zhHfCnHUb-waH-8LlA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC8xMi85NS9i/aXNob3AtY2hlc3Mt/ZmlndXJlLXZlY3Rv/ci00NjM4MTI5NS5q/cGc" alt="Bishop"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/KAT11s-Wo2jlNl3vXuF5uY4GAT7xKHfX_ff-YohKePQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgxLzkwNy9zbWFs/bC9ibGFjay1jaGVz/cy1xdWVlbi1waWVj/ZS1vbi15ZWxsb3ct/YmFja2dyb3VuZC1w/aG90by5qcGc" alt="Queen"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/TRJSiBv7w8CsmcViPoKtKSmmmxFwUZW4Ow1T2J8zoXA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzA4Lzg0LzE3/LzM2MF9GXzYwODg0/MTcxN19jOTlWNEV5/T0ptVWNOT2ZMcWw4/c3BsTDJ3dHJiMklT/NS5qcGc" alt="King"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/8flOMLpVLoulgo6wrwtPUDof8zhHfCnHUb-waH-8LlA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/dmVjdG9yc3RvY2su/Y29tL2kvcHJldmll/dy0xeC8xMi85NS9i/aXNob3AtY2hlc3Mt/ZmlndXJlLXZlY3Rv/ci00NjM4MTI5NS5q/cGc" alt="Bishop"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/cdlYleGusET-Q6nkrYmBNRGK5ShHBMxzEvSVJZ7dn_0/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93d3cu/c2h1dHRlcnN0b2Nr/LmNvbS9pbWFnZS1w/aG90by9ibGFjay1o/b3JzZS1jaGVzcy1p/c29sYXRlZC1vbi0y/NjBudy0zMTUyMTA3/NTIuanBn" alt="Horse"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/dnW4uOTVcvUOG9wmgUuX3kqkyLoKLEdW8we_W2-k1oI/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8x/LzE5L0NoZXNzX3Bp/ZWNlXy1fQmxhY2tf/cm9vay5KUEc" alt="Rook"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/XSaTSddxFBe76aa_VtlErSlsmo9N6Ty0c3IebFEEPNg/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMudmVjdGVlenku/Y29tL3N5c3RlbS9y/ZXNvdXJjZXMvdGh1/bWJuYWlscy8wNTQv/NzgyLzgxMS9zbWFs/bC9ibGFjay1jaGVz/cy1wYXduLW9uLWEt/eWVsbG93LWFuZC1i/ZWlnZS1jaGVzc2Jv/YXJkLXBob3RvLmpw/Zw" alt="Pawn"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/6mGezBy3VkX7hUoO3fFKLpJR_bH0dSHPhZH8WoWNUjQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEyLzUyLzU3Lzk2/LzM2MF9GXzEyNTI1/Nzk2NTBfczVEWmJp/NThDMU9sc0NYeDc5/VmZVU25JY0NjeFY1/eHAuanBn" alt="Pawn"></td>
+    </table>
+    <table>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/uZwrFhABhh-hW20nk5I65hJ3DMS1I4VEIKaaVNOVZFs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi93aGl0/ZS1jaGVzcy1yb29r/LXBpZWNlLWlzb2xh/dGVkLWJhY2tncm91/bmQtZXhoaWJpdGlu/Zy1zbGVlay1zaW1w/bGUtc3R5bGUtMzg1/MjQ3NTI4LmpwZw" alt="Rook"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/G0TRtSPDRyUATPmRmfxFd83SC7g2G0daFUyg0V-I4Cg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEzLzQxLzc0LzQ2/LzM2MF9GXzEzNDE3/NDQ2NDJfaVRrcFpz/Vms1UG9JSllLMFlz/SVEyOFNxZTBwQUFL/blEuanBn" alt="Horse"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/2QuT3-2EH89xT77iH21v6Zd627n0vq1Fgnec4jhCSJY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU3LzZh/LzJmLzU3NmEyZjU5/ZDMyODZkMDRjM2U1/NTA3ZDI2ZWRjMjA4/LmpwZw" alt="Bishop"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/EIBY99YI7QSCXg-IXbEiux_4hbOwjfTzDVF8-Ldmi0E/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1wc2Qvd2hp/dGUtY2hlc3MtcXVl/ZW4tc3RyYXRlZ3kt/cG93ZXItbGVhZGVy/c2hpcF82MzI0OTgt/MjQ1MjMuanBnP3Nl/bXQ9YWlzX2h5YnJp/ZCZ3PTc0MA" alt="Queen"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/G_spNr1QmFboZfLEy9vavHkeZdIwmzSxE999TFwocgU/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA1Lzg3LzQ4LzEx/LzM2MF9GXzU4NzQ4/MTE3NV9ZazhTZmtq/WEVuVFlSQ1NUVEs4/eGFVM0Q4cUUxNUFR/ai5qcGc" alt="King"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/2QuT3-2EH89xT77iH21v6Zd627n0vq1Fgnec4jhCSJY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzLzU3LzZh/LzJmLzU3NmEyZjU5/ZDMyODZkMDRjM2U1/NTA3ZDI2ZWRjMjA4/LmpwZw" alt="Bishop"></td>
+       <td width="100px" height="100px" style="background-color: rgba(163, 113, 113, 0.269);"><img src="https://imgs.search.brave.com/G0TRtSPDRyUATPmRmfxFd83SC7g2G0daFUyg0V-I4Cg/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzEzLzQxLzc0LzQ2/LzM2MF9GXzEzNDE3/NDQ2NDJfaVRrcFpz/Vms1UG9JSllLMFlz/SVEyOFNxZTBwQUFL/blEuanBn" alt="Horse"></td>
+       <td width="100px" height="100px" style="background-color: rgb(0, 0, 0);"><img src="https://imgs.search.brave.com/uZwrFhABhh-hW20nk5I65hJ3DMS1I4VEIKaaVNOVZFs/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi93aGl0/ZS1jaGVzcy1yb29r/LXBpZWNlLWlzb2xh/dGVkLWJhY2tncm91/bmQtZXhoaWJpdGlu/Zy1zbGVlay1zaW1w/bGUtc3R5bGUtMzg1/MjQ3NTI4LmpwZw" alt="Rook"></td>
+    </table>
+</body>
+</html>
