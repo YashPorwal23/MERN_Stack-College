@@ -1,0 +1,19 @@
+h1{
+    text-align: center;
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: rgba(34, 34, 228, 0.527);
+    color: rgb(236, 0, 0);
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+.container{
+    text-align: center;
+    color: rgb(14, 104, 184);
+    background-color: rgb(189, 189, 55);
+    margin: 40px;
+    padding: 40px;
+    border: 2px solid green;
+    text-transform: capitalize;
+}

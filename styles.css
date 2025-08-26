@@ -1,0 +1,11 @@
+#id{
+    color: orange;
+    background-color: blueviolet;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+div p{
+    background-color: cadetblue;
+}
+div,h{
+    background-color: cornflowerblue;
+}
